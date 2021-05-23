@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 
 const Login = () => {
@@ -19,7 +20,7 @@ const Login = () => {
                    <label htmlFor = "password">Password: </label>
                    <input type ="password" id = "password" name ="password"/>
                    <button className ="btn-form"> Login </button>
-                   <p>Don't have an account <a href ='#'>Sign up</a></p>
+                   <p>Don't have an account <Link to  ='/signup'>Sign up</Link></p>
                </form>
 
 
